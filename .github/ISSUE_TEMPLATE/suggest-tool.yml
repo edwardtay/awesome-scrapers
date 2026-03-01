@@ -1,0 +1,50 @@
+name: Suggest a Tool
+description: Suggest a scraping tool to add to the list
+title: "[Suggest] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: e.g. Scrapy
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: GitHub URL or website
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI-Powered Scraping
+        - Stealth & Anti-Detection
+        - MCP Servers
+        - Browser Automation
+        - Web Scraping Frameworks
+        - HTTP Clients
+        - HTML & XML Parsing
+        - Content & Text Extraction
+        - Social Media Scrapers
+        - Media Downloaders
+        - Document & PDF Extraction
+        - OCR & Screen Scraping
+        - Blockchain & On-Chain
+        - Managed Scraping APIs
+        - CAPTCHA Solving
+        - Proxy Providers
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Why should it be included?
+      placeholder: Brief description and why it's useful
+    validations:
+      required: true

@@ -1,0 +1,58 @@
+name: Update Star Counts
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 6am UTC
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Update star counts and check health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e '
+          const fs=require("fs"),path=require("path"),R=path.join(process.cwd(),"README.md"),T=process.env.GITHUB_TOKEN||"",S=365,h={Accept:"application/vnd.github.v3+json","User-Agent":"awesome-scrapers-bot"};if(T)h.Authorization="token "+T;function f(c){return c>=1e3?Math.round(c/1e3)+"k":String(c)}async function g(o,r){try{const s=await fetch("https://api.github.com/repos/"+o+"/"+r,{headers:h});if(!s.ok)return null;const d=await s.json();return{stars:d.stargazers_count,pushed_at:d.pushed_at,archived:d.archived}}catch{return null}}async function main(){let readme=fs.readFileSync(R,"utf-8");const re=/\[([^\]]+)\]\((https:\/\/github\.com\/([^/)]+)\/([^/)]+))\)/g,repos=[];let m;while((m=re.exec(readme))!==null)repos.push({name:m[1],url:m[2],owner:m[3],repo:m[4]});const seen=new Set,uq=repos.filter(r=>{const k=r.owner+"/"+r.repo;if(seen.has(k))return false;seen.add(k);return true});console.log("Found "+uq.length+" repos");const results=[];for(let i=0;i<uq.length;i+=10){const batch=uq.slice(i,i+10);const br=await Promise.all(batch.map(async r=>({...r,data:await g(r.owner,r.repo)})));results.push(...br);if(i+10<uq.length)await new Promise(r=>setTimeout(r,500))}let changes=0;const stale=[],dead=[];for(const r of results){if(!r.data){dead.push(r.owner+"/"+r.repo);continue}const ns=f(r.data.stars),d=(Date.now()-new Date(r.data.pushed_at).getTime())/864e5;if(d>S)stale.push({repo:r.owner+"/"+r.repo,lastPush:r.data.pushed_at.split("T")[0],days:Math.round(d)});const eu=r.url.replace(/[.*+?^${}()|[\]\\\\]/g,"\\\\$&"),en=r.name.replace(/[.*+?^${}()|[\]\\\\]/g,"\\\\$&"),rx=new RegExp("(\\\\["+en+"\\\\]\\\\("+eu+"\\\\)\\\\s*\\\\|\\\\s*)([\\\\d,]+k?|\\\\d+)","g");readme=readme.replace(rx,(fm,p,old)=>{if(old!==ns){changes++;console.log("  "+r.owner+"/"+r.repo+": "+old+" -> "+ns)}return p+ns})}fs.writeFileSync(R,readme);const report={timestamp:new Date().toISOString(),totalRepos:uq.length,starCountsUpdated:changes,staleRepos:stale,deadGithubRepos:dead};console.log("\\nUpdated: "+changes+" | Stale: "+stale.length+" | Dead: "+dead.length);stale.forEach(r=>console.log("  ⚠️  "+r.repo+" - "+r.lastPush));dead.forEach(r=>console.log("  💀 "+r));fs.writeFileSync("report.json",JSON.stringify(report,null,2));if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,"changes="+changes+"\\nstale="+stale.length+"\\ndead="+dead.length+"\\n")}main().catch(e=>{console.error(e);process.exit(1)})
+          '
+
+      - name: Read report
+        id: report
+        run: |
+          if [ -f report.json ]; then
+            echo "has_report=true" >> $GITHUB_OUTPUT
+            STALE=$(jq '.staleRepos | length' report.json)
+            DEAD=$(jq '.deadGithubRepos | length' report.json)
+            CHANGES=$(jq '.starCountsUpdated' report.json)
+            echo "stale=$STALE" >> $GITHUB_OUTPUT
+            echo "dead=$DEAD" >> $GITHUB_OUTPUT
+            echo "changes=$CHANGES" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create PR with updates
+        if: steps.report.outputs.has_report == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update star counts and health check"
+          title: "🤖 Weekly star count update"
+          body: |
+            ## 🤖 Automated Update
+
+            **Star counts updated:** ${{ steps.report.outputs.changes }}
+            **Stale repos detected:** ${{ steps.report.outputs.stale }}
+            **Dead links detected:** ${{ steps.report.outputs.dead }}
+          branch: auto/update-stars
+          delete-branch: true
+          labels: automated
