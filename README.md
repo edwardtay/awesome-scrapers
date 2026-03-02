@@ -39,6 +39,7 @@ A comprehensive resource organized **by what you're scraping** — covering AI-p
 - [☁️ Managed Scraping APIs](#️-managed-scraping-apis)
 - [🧪 CAPTCHA Solving](#-captcha-solving)
 - [🌍 Proxy Providers](#-proxy-providers)
+- [🆓 Try Free](#-try-free)
 - [🪦 Deprecated Tools Graveyard](#-deprecated-tools-graveyard)
 - [Contributing](#contributing)
 
@@ -229,7 +230,7 @@ Pay-per-request scraping services that handle proxies, browsers, and anti-bot fo
 | Service | Best For | Key Feature |
 |---------|----------|-------------|
 | [Apify](https://apify.com/) | Full-stack platform | 20,000+ pre-built scrapers ("Actors"), works with Crawlee/Scrapy/Playwright |
-| [ScrapingBee](https://www.scrapingbee.com/) | Simple API access | JS rendering, screenshots, Google Search API, 1k free calls |
+| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Simple API access | JS rendering, screenshots, Google Search API, 1k free calls |
 | [ZenRows](https://www.zenrows.com/) | Anti-bot bypass | >99% success vs Cloudflare, Puppeteer/Playwright support |
 | [ScrapFly](https://scrapfly.io/) | Multi-API | Scraping + screenshots + crawler APIs, 130M+ proxy IPs |
 | [Browserless](https://www.browserless.io/) | Headless browsers | Deploy headless Chrome in Docker, BrowserQL (GraphQL), self-hostable |
@@ -237,7 +238,7 @@ Pay-per-request scraping services that handle proxies, browsers, and anti-bot fo
 | [Oxylabs](https://oxylabs.io/products/scraper-api) | Enterprise | ML-driven proxy rotation, e-commerce specialized endpoints |
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured search results from Google, Bing, Yahoo, and more |
-| [ScraperAPI](https://www.scraperapi.com/) | Getting started | 40M+ proxies, 5k free credits, simple API interface |
+| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | 40M+ proxies, 5k free credits, simple API interface |
 
 ## 🧪 CAPTCHA Solving
 
@@ -245,7 +246,7 @@ Services that solve CAPTCHAs so your scrapers don't get stuck.
 
 | Service | Method | Starting Price | Supports |
 |---------|--------|---------------|----------|
-| [2Captcha](https://2captcha.com/) | Human workers | $1/1k solves | reCAPTCHA, Turnstile, FunCaptcha, GeeTest, image |
+| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | Human workers | $1/1k solves | reCAPTCHA, Turnstile, FunCaptcha, GeeTest, image |
 | [Anti-Captcha](https://anti-captcha.com/) | Human workers | $0.0005/token | reCAPTCHA, hCaptcha, FunCaptcha, Turnstile |
 | [CapSolver](https://www.capsolver.com/) | AI/ML | $0.65/1k | reCAPTCHA, AWS WAF, Cloudflare, GeeTest |
 | [CapMonster Cloud](https://capmonster.cloud/) | AI/ML | $0.02/1k images | reCAPTCHA, hCaptcha, Turnstile, <2s solve time |
@@ -258,10 +259,18 @@ Residential, datacenter, and mobile proxies for scraping at scale.
 |----------|-------------|---------------|------------|
 | [Bright Data](https://brightdata.com/) | 150M+ IPs | Pay-as-you-go | Largest network, 195 countries, enterprise-grade |
 | [Oxylabs](https://oxylabs.io/) | 100M+ IPs | Contact sales | Fastest latency, city/ZIP targeting |
-| [Smartproxy](https://smartproxy.com/) | 125M+ IPs | $8.50/GB | Good value, 50 US states |
+| [Decodo](https://decodo.com/) | 125M+ IPs | $8.50/GB | Good value, 50 US states |
 | [IPRoyal](https://iproyal.com/) | 34M+ IPs | $1.75/GB | Cheapest residential, ethically sourced |
-| [NetNut](https://netnut.io/) | 85M+ IPs | Contact sales | One-hop ISP connectivity (faster) |
-| [Webshare](https://www.webshare.io/) | 10M+ IPs | $2.99/mo | Budget-friendly, free tier available |
+| [NetNut](https://netnut.io?ref=mzjimtc) | 85M+ IPs | Contact sales | One-hop ISP connectivity (faster) |
+| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | 10M+ IPs | $2.99/mo | Budget-friendly, free tier available |
+
+## 🆓 Try Free
+
+Most managed scraping services offer free tiers or trial credits — great for testing before committing.
+
+| Service | Free Tier | Try It |
+|---------|-----------|--------|
+| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | 5,000 free API credits | [Start free →](https://www.scraperapi.com/?fp_ref=edward66) |
 
 ## 🪦 Deprecated Tools Graveyard
 
