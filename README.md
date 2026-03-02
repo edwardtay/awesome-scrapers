@@ -271,6 +271,10 @@ Most managed scraping services offer free tiers or trial credits — great for t
 | Service | Free Tier | Try It |
 |---------|-----------|--------|
 | [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | 5,000 free API credits | [Start free →](https://www.scraperapi.com/?fp_ref=edward66) |
+| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | 1,000 free API calls | [Start free →](https://www.scrapingbee.com?fpr=edward77) |
+| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | Free tier with 10 proxies | [Start free →](https://www.webshare.io/?referral_code=petnjy3bdxeh) |
+| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | $1 starting balance | [Start free →](https://2captcha.com/auth/register/?from=27588755) |
+| [NetNut](https://netnut.io?ref=mzjimtc) | 7-day free trial | [Start free →](https://netnut.io?ref=mzjimtc) |
 
 ## 🪦 Deprecated Tools Graveyard
 
