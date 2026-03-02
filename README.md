@@ -301,6 +301,10 @@ These tools are dead, archived, or abandoned. If you see them recommended elsewh
 
 ---
 
+## Disclosure
+
+Some links in the Managed Scraping APIs, CAPTCHA Solving, Proxy Providers, and Try Free sections are affiliate/referral links. These help support the maintenance of this list. All tools are included based on merit — affiliate status does not influence placement or rankings.
+
 ## Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
