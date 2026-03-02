@@ -19,6 +19,7 @@ body:
         - No commits in 1+ year
         - Broken URL (404)
         - Project officially deprecated
+        - Service shut down
     validations:
       required: true
   - type: input

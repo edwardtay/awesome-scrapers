@@ -1,6 +1,6 @@
 # Awesome Scrapers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of scrapers, crawlers, and data extraction tools across web, social media, documents, blockchain, and more.
+> A curated list of scrapers, crawlers, and data extraction tools. 150+ tools across 17 categories.
 
 > ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
 
@@ -264,6 +264,6 @@ Some links in the Managed Scraping APIs, CAPTCHA Solving, Proxy Providers, and T
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 - Add tools you've actually used or evaluated
-- Include star count and language
+- Include star count and language where applicable
 - Note if a tool is unmaintained (last commit >1 year ago)
 - Commercial tools/services are fine but must be clearly labeled

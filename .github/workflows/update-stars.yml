@@ -46,9 +46,9 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: update star counts and health check"
-          title: "🤖 Weekly star count update"
+          title: "Weekly star count update"
           body: |
-            ## 🤖 Automated Update
+            ## Automated Update
 
             **Star counts updated:** ${{ steps.report.outputs.changes }}
             **Stale repos detected:** ${{ steps.report.outputs.stale }}
