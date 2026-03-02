@@ -1,5 +1,11 @@
 # Awesome Scrapers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Stars](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-scrapers/update-stars.yml?label=star%20updates)](https://github.com/edwardtay/awesome-scrapers/actions/workflows/update-stars.yml)
+[![Links](https://img.shields.io/github/actions/workflow/status/edwardtay/awesome-scrapers/links.yml?label=links)](https://github.com/edwardtay/awesome-scrapers/actions/workflows/links.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/edwardtay/awesome-scrapers)](https://github.com/edwardtay/awesome-scrapers/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/edwardtay/awesome-scrapers/pulls)
+[![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
+
 > A curated list of scrapers, crawlers, and data extraction tools. 150+ tools across 17 categories.
 
 > ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
