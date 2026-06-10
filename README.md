@@ -6,9 +6,9 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/edwardtay/awesome-scrapers/pulls)
 [![License: CC0](https://img.shields.io/badge/License-CC0-lightgrey.svg)](LICENSE)
 
-> A curated list of scrapers, crawlers, and data extraction tools. 150+ tools across 17 categories.
+> A curated list of scrapers, crawlers, browser automation tools, extraction libraries, and managed services.
 
-> ⚠️ = aging (6-12 months since last commit) — may still work but watch for staleness.
+> ⚠️ = known maintenance concern; verify repository status before adoption.
 
 ## How to Choose
 
@@ -33,16 +33,16 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 87k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 79k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 61k | Python | LLM-friendly web crawler with structured extraction. |
-| [Docling](https://github.com/docling-project/docling) | 54k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
-| [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 23k | Python | Graph pipelines + LLMs to extract data via plain English. |
-| [Stagehand](https://github.com/browserbase/stagehand) | 21k | TypeScript | Browser automation combining natural language with code precision. |
-| [Skyvern](https://github.com/Skyvern-AI/skyvern) | 21k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
-| [Jina Reader](https://github.com/jina-ai/reader) | 10k | TypeScript | Any URL → LLM-friendly markdown with vision model support. ⚠️ |
-| [llm-scraper](https://github.com/mishushakov/llm-scraper) | 6k | TypeScript | Structured data from any webpage using LLMs with Zod schemas. |
-| [Spider](https://github.com/spider-rs/spider) | 2k | Rust | Async web crawler — 100-1000x faster than Python alternatives. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 131k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 98k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 68k | Python | LLM-friendly web crawler with structured extraction. |
+| [Docling](https://github.com/docling-project/docling) | 61k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
+| [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 27k | Python | Graph pipelines + LLMs to extract data via plain English. |
+| [Stagehand](https://github.com/browserbase/stagehand) | 23k | TypeScript | Browser automation combining natural language with code precision. |
+| [Skyvern](https://github.com/Skyvern-AI/skyvern) | 22k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
+| [Jina Reader](https://github.com/jina-ai/reader) | 11k | TypeScript | Any URL → LLM-friendly markdown with vision model support. |
+| [llm-scraper](https://github.com/mishushakov/llm-scraper) | 7k | TypeScript | Structured data from any webpage using LLMs with Zod schemas. |
+| [Spider](https://github.com/spider-rs/spider) | 3k | Rust | Async, configurable web crawler with streaming and browser support. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -52,13 +52,13 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 19k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
-| [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 12k | Python | Browser automation with UC (Undetected Chrome) mode. |
-| [Camoufox](https://github.com/daijro/camoufox) | 6k | Python | Firefox fork patched at engine level — 0% bot detection rate. |
-| [curl_cffi](https://github.com/lexiforest/curl_cffi) | 5k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 63k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
+| [Camoufox](https://github.com/daijro/camoufox) | 9k | Python | Firefox-based browser automation project with fingerprint-management features. |
+| [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
 | [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 4k | Python | Successor to undetected-chromedriver — direct CDP, no WebDriver. |
-| [Botasaurus](https://github.com/omkarcloud/botasaurus) | 4k | Python | Scraping framework with anti-detection, parallelism, and caching. |
-| [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 2k | JavaScript | Undetected Playwright fork that passes bot detection. |
+| [Botasaurus](https://github.com/omkarcloud/botasaurus) | 5k | Python | Scraping framework with anti-detection, parallelism, and caching. |
+| [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 3k | JavaScript | Undetected Playwright fork that passes bot detection. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -68,8 +68,8 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 
 | Server | Stars | Description |
 |--------|-------|-------------|
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 28k | Browser automation via accessibility snapshots (by Microsoft). |
-| [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 6k | Web scraping and search in Claude/Cursor via Firecrawl API. |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 34k | Browser automation via accessibility snapshots (by Microsoft). |
+| [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 7k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 2k | Web access with geo-unblocking and bot evasion. |
 
@@ -81,10 +81,10 @@ The foundation for dynamic/JS-heavy scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | 94k | JavaScript | Google's Chrome/Firefox control via DevTools Protocol. |
-| [Playwright](https://github.com/microsoft/playwright) | 83k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | 95k | JavaScript | Google's Chrome/Firefox control via DevTools Protocol. |
+| [Playwright](https://github.com/microsoft/playwright) | 91k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 34k | Multi | The OG browser automation (W3C WebDriver standard). |
-| [Crawlee](https://github.com/apify/crawlee) | 22k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [Crawlee](https://github.com/apify/crawlee) | 24k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -94,7 +94,7 @@ The foundation for dynamic/JS-heavy scraping.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [Scrapy](https://github.com/scrapy/scrapy) | 60k | Python scraping framework — middleware, pipelines, extensions. |
+| [Scrapy](https://github.com/scrapy/scrapy) | 62k | Python scraping framework — middleware, pipelines, extensions. |
 | [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup) | 5k | Stateful browser-like interaction for simple scraping. |
 | [scrapy-playwright](https://github.com/scrapy-plugins/scrapy-playwright) | 1k | Playwright integration for Scrapy — JS rendering with full pipeline. |
 
@@ -103,7 +103,7 @@ The foundation for dynamic/JS-heavy scraping.
 | Tool | Stars | Description |
 |------|-------|-------------|
 | [Colly](https://github.com/gocolly/colly) | 25k | Fast scraping framework for Go. |
-| [Katana](https://github.com/projectdiscovery/katana) | 16k | Crawling and spidering framework by ProjectDiscovery. |
+| [Katana](https://github.com/projectdiscovery/katana) | 17k | Crawling and spidering framework by ProjectDiscovery. |
 | [Ferret](https://github.com/MontFerret/ferret) | 6k | Declarative scraping with FQL query language. |
 
 ### Ruby
@@ -122,8 +122,8 @@ The network layer — making requests that look human.
 |------|-------|----------|-------------|
 | [aiohttp](https://github.com/aio-libs/aiohttp) | 16k | Python | Async HTTP client/server for high-concurrency scraping. |
 | [httpx](https://github.com/encode/httpx) | 15k | Python | Async/sync HTTP client with HTTP/2 support. |
-| [curl_cffi](https://github.com/lexiforest/curl_cffi) | 5k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
-| [got-scraping](https://github.com/apify/got-scraping) | 736 | Node.js | HTTP client with header/TLS mimicry by Apify. |
+| [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
+| [got-scraping](https://github.com/apify/got-scraping) | 755 | Node.js | HTTP client with header/TLS mimicry by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -150,7 +150,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Readability.js](https://github.com/mozilla/readability) | 11k | JavaScript | Mozilla's article extractor (powers Firefox Reader View). |
-| [Trafilatura](https://github.com/adbar/trafilatura) | 5k | Python | Web text extraction with metadata and language detection. |
+| [Trafilatura](https://github.com/adbar/trafilatura) | 6k | Python | Web text extraction with metadata and language detection. |
 | [html2text](https://github.com/Alir3z4/html2text) | 2k | Python | HTML → clean Markdown. |
 | [Markdownify](https://github.com/matthewwithanm/python-markdownify) | 2k | Python | Flexible HTML-to-Markdown with customizable options. |
 | [newspaper4k](https://github.com/AndyTheFactory/newspaper4k) | 1k | Python | News article extraction with NLP and multilingual support. |
@@ -163,7 +163,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Platform | Description |
 |------|-------|----------|-------------|
-| [Instaloader](https://github.com/instaloader/instaloader) | 12k | Instagram | Posts, stories, reels, highlights with metadata. |
+| [Instaloader](https://github.com/instaloader/instaloader) | 13k | Instagram | Posts, stories, reels, highlights with metadata. |
 | [TikTok-Api](https://github.com/davidteather/TikTok-Api) | 6k | TikTok | Unofficial API wrapper for Python. |
 | [PRAW](https://github.com/praw-dev/praw) | 4k | Reddit | Official Python Reddit API Wrapper. |
 
@@ -173,10 +173,10 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 149k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 170k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 31k | Go video downloader — 40+ sites (formerly annie). |
-| [spotdl](https://github.com/spotDL/spotify-downloader) | 24k | Spotify tracks/playlists with metadata and album art. |
-| [gallery-dl](https://github.com/mikf/gallery-dl) | 17k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
+| [spotdl](https://github.com/spotDL/spotify-downloader) | 25k | Spotify tracks/playlists with metadata and album art. |
+| [gallery-dl](https://github.com/mikf/gallery-dl) | 18k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -184,10 +184,10 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Docling](https://github.com/docling-project/docling) | 54k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
-| [Unstructured](https://github.com/Unstructured-IO/unstructured) | 14k | Python | ETL pipeline for documents → structured data for LLMs. |
+| [Docling](https://github.com/docling-project/docling) | 61k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | 15k | Python | ETL pipeline for documents → structured data for LLMs. |
 | [pdfplumber](https://github.com/jsvine/pdfplumber) | 10k | Python | Text, tables, and layout from PDFs with precision. |
-| [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 9k | Python | Fast PDF/XPS/EPUB extraction and rendering. |
+| [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 10k | Python | Fast PDF/XPS/EPUB extraction and rendering. |
 | [Tabula](https://github.com/tabulapdf/tabula) | 7k | Java | Data tables from PDFs. ⚠️ |
 | [pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 7k | Python | PDF text extraction with layout analysis. |
 | [Camelot](https://github.com/camelot-dev/camelot) | 4k | Python | PDF table extraction — lattice and stream modes. |
@@ -199,9 +199,9 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Tesseract](https://github.com/tesseract-ocr/tesseract) | 73k | C++ | Google's OCR engine — 100+ languages. |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 71k | Python | Lightweight OCR — 100+ languages with LLM integration. |
-| [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 29k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
+| [Tesseract](https://github.com/tesseract-ocr/tesseract) | 75k | C++ | Google's OCR engine — 100+ languages. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 82k | Python | Lightweight OCR — 100+ languages with LLM integration. |
+| [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 30k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
 | [pytesseract](https://github.com/madmaze/pytesseract) | 6k | Python | Python wrapper for Tesseract. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -223,40 +223,40 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 
 | Service | Best For | Key Feature |
 |---------|----------|-------------|
-| [Apify](https://apify.com/) | Full-stack platform | 20,000+ pre-built scrapers, works with Crawlee/Scrapy/Playwright. |
-| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Simple API access | JS rendering, screenshots, Google Search API, 1k free calls. |
-| [ZenRows](https://www.zenrows.com/) | Anti-bot bypass | >99% success vs Cloudflare, Puppeteer/Playwright support. |
-| [ScrapFly](https://scrapfly.io/) | Multi-API | Scraping + screenshots + crawler APIs, 130M+ proxy IPs. |
+| [Apify](https://apify.com/) | Full-stack platform | Marketplace of pre-built Actors plus Crawlee-based development and managed execution. |
+| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Simple API access | JavaScript rendering, screenshots, and search APIs. |
+| [ZenRows](https://www.zenrows.com/) | Anti-bot bypass | Managed scraping API with browser rendering and proxy rotation. |
+| [ScrapFly](https://scrapfly.io/) | Multi-API | Scraping, screenshots, extraction, and crawler APIs. |
 | [Browserless](https://www.browserless.io/) | Headless browsers | Headless Chrome in Docker, BrowserQL, self-hostable. |
 | [Browserbase](https://www.browserbase.com/) | AI browser agents | Cloud browsers for AI, session persistence, Stagehand integration. |
 | [Oxylabs](https://oxylabs.io/products/scraper-api) | Enterprise | ML-driven proxy rotation, e-commerce specialized. |
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA. |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured results from Google, Bing, Yahoo. |
-| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | 40M+ proxies, 5k free credits. |
+| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | Proxy rotation, browser rendering, and structured scraping endpoints. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🧪 CAPTCHA Solving
 
-| Service | Method | Starting Price | Supports |
+| Service | Method | Pricing | Supports |
 |---------|--------|---------------|----------|
-| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | Human workers | $1/1k solves | reCAPTCHA, Turnstile, FunCaptcha, GeeTest, image. |
-| [Anti-Captcha](https://anti-captcha.com/) | Human workers | $0.0005/token | reCAPTCHA, hCaptcha, FunCaptcha, Turnstile. |
-| [CapSolver](https://www.capsolver.com/) | AI/ML | $0.65/1k | reCAPTCHA, AWS WAF, Cloudflare, GeeTest. |
-| [CapMonster Cloud](https://capmonster.cloud/) | AI/ML | $0.02/1k images | reCAPTCHA, hCaptcha, Turnstile, <2s solve. |
+| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | Human workers | Usage-based; see current pricing | reCAPTCHA, Turnstile, FunCaptcha, GeeTest, image. |
+| [Anti-Captcha](https://anti-captcha.com/) | Human workers | Usage-based; see current pricing | reCAPTCHA, hCaptcha, FunCaptcha, Turnstile. |
+| [CapSolver](https://www.capsolver.com/) | Automated solving | Usage-based; see current pricing | reCAPTCHA, AWS WAF, Cloudflare, GeeTest. |
+| [CapMonster Cloud](https://capmonster.cloud/) | Automated solving | Usage-based; see current pricing | reCAPTCHA, hCaptcha, and Turnstile. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
 ## 🌍 Proxy Providers
 
-| Provider | Network Size | Starting Price | Highlights |
+| Provider | Coverage | Pricing | Highlights |
 |----------|-------------|---------------|------------|
-| [Bright Data](https://brightdata.com/) | 150M+ IPs | Pay-as-you-go | Largest network, 195 countries. |
-| [Oxylabs](https://oxylabs.io/) | 100M+ IPs | Contact sales | Fastest latency, city/ZIP targeting. |
-| [Decodo](https://decodo.com/) | 125M+ IPs | $8.50/GB | Good value, 50 US states. |
-| [IPRoyal](https://iproyal.com/) | 34M+ IPs | $1.75/GB | Cheapest residential, ethically sourced. |
-| [NetNut](https://netnut.io?ref=mzjimtc) | 85M+ IPs | Contact sales | One-hop ISP connectivity (faster). |
-| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | 10M+ IPs | $2.99/mo | Budget-friendly, free tier. |
+| [Bright Data](https://brightdata.com/) | Residential, ISP, mobile, and datacenter proxies | Pay-as-you-go | Broad proxy and web-data product portfolio with geographic targeting. |
+| [Oxylabs](https://oxylabs.io/) | Residential, ISP, mobile, and datacenter proxies | Contact sales | Enterprise proxy services with country, city, and ZIP targeting options. |
+| [Decodo](https://decodo.com/) | Residential, ISP, mobile, and datacenter proxies | Published plans | Geographic targeting and rotating or sticky sessions. |
+| [IPRoyal](https://iproyal.com/) | Residential, ISP, mobile, and datacenter proxies | Published plans | Proxy services with geographic targeting and pay-as-you-go options. |
+| [NetNut](https://netnut.io?ref=mzjimtc) | Residential, ISP, mobile, and datacenter proxies | Contact sales | ISP-sourced proxy connectivity and geographic targeting. |
+| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | Residential and datacenter proxies | Published plans | Self-service proxy plans and a limited free tier. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -264,11 +264,11 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 
 | Service | Free Tier | Try It |
 |---------|-----------|--------|
-| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | 5,000 free API credits | [Start free →](https://www.scraperapi.com/?fp_ref=edward66) |
-| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | 1,000 free API calls | [Start free →](https://www.scrapingbee.com?fpr=edward77) |
-| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | Free tier with 10 proxies | [Start free →](https://www.webshare.io/?referral_code=petnjy3bdxeh) |
-| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | $1 starting balance | [Start free →](https://2captcha.com/auth/register/?from=27588755) |
-| [NetNut](https://netnut.io?ref=mzjimtc) | 7-day free trial | [Start free →](https://netnut.io?ref=mzjimtc) |
+| [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Trial credits; check current terms | [Start free →](https://www.scraperapi.com/?fp_ref=edward66) |
+| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Trial credits; check current terms | [Start free →](https://www.scrapingbee.com?fpr=edward77) |
+| [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | Limited free tier; check current terms | [Start free →](https://www.webshare.io/?referral_code=petnjy3bdxeh) |
+| [2Captcha](https://2captcha.com/auth/register/?from=27588755) | Promotional terms vary | [View offer →](https://2captcha.com/auth/register/?from=27588755) |
+| [NetNut](https://netnut.io?ref=mzjimtc) | Trial availability varies | [Request trial →](https://netnut.io?ref=mzjimtc) |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -307,7 +307,7 @@ Some links in the Managed Scraping APIs, CAPTCHA Solving, Proxy Providers, and T
 
 | List | Description |
 |------|-------------|
-| [awesome-ai](https://github.com/edwardtay/awesome-ai) | 400+ AI APIs, tools, frameworks, and platforms. |
+| [awesome-ai](https://github.com/edwardtay/awesome-ai) | AI APIs, tools, frameworks, platforms, and learning resources. |
 | [awesome-robotics](https://github.com/edwardtay/awesome-robotics) | Robotics frameworks, simulators, and platforms. |
 | [awesome-web3-ai](https://github.com/edwardtay/awesome-web3-ai) | Web3 x AI tools, agent frameworks, and protocols. |
 
@@ -320,8 +320,5 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 - Note if a tool is unmaintained (last commit >1 year ago)
 - Commercial tools/services are fine but must be clearly labeled
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Edward Tay](https://github.com/edwardtay) has waived all copyright and related or neighboring rights to this work.
