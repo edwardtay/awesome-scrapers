@@ -33,8 +33,8 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 133k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 99k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 137k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 100k | Python | AI agents that control a browser to complete tasks autonomously. |
 | [Crawl4AI](https://github.com/unclecode/crawl4ai) | 69k | Python | LLM-friendly web crawler with structured extraction. |
 | [Docling](https://github.com/docling-project/docling) | 62k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 27k | Python | Graph pipelines + LLMs to extract data via plain English. |
@@ -52,7 +52,7 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 64k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 66k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 9k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
@@ -123,7 +123,7 @@ The network layer — making requests that look human.
 | [aiohttp](https://github.com/aio-libs/aiohttp) | 16k | Python | Async HTTP client/server for high-concurrency scraping. |
 | [httpx](https://github.com/encode/httpx) | 15k | Python | Async/sync HTTP client with HTTP/2 support. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
-| [got-scraping](https://github.com/apify/got-scraping) | 755 | Node.js | HTTP client with header/TLS mimicry by Apify. |
+| [got-scraping](https://github.com/apify/got-scraping) | 757 | Node.js | HTTP client with header/TLS mimicry by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -173,7 +173,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 171k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 173k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 31k | Go video downloader — 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 25k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 19k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
@@ -200,7 +200,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Tesseract](https://github.com/tesseract-ocr/tesseract) | 75k | C++ | Google's OCR engine — 100+ languages. |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 82k | Python | Lightweight OCR — 100+ languages with LLM integration. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 83k | Python | Lightweight OCR — 100+ languages with LLM integration. |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 30k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
 | [pytesseract](https://github.com/madmaze/pytesseract) | 6k | Python | Python wrapper for Tesseract. |
 
