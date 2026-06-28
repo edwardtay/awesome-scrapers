@@ -85,6 +85,7 @@ The foundation for dynamic/JS-heavy scraping.
 | [Playwright](https://github.com/microsoft/playwright) | 91k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 34k | Multi | The OG browser automation (W3C WebDriver standard). |
 | [Crawlee](https://github.com/apify/crawlee) | 24k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [invisible_playwright](https://github.com/feder-cr/invisible_playwright) | 1.5k | Python | Playwright wrapper over a patched Firefox with a realistic, consistent fingerprint for JS-heavy pages. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
