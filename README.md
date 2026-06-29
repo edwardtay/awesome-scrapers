@@ -72,6 +72,7 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 7k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 2k | Web access with geo-unblocking and bot evasion. |
+| [Watched MCP](https://github.com/NG-PR0JECT/watched-mcp) | ★ | Website change detection via AI agents — monitor pages for changes, get diffs, receive alerts. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
