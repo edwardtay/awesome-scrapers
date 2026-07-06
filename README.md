@@ -33,10 +33,10 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 141k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 101k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 70k | Python | LLM-friendly web crawler with structured extraction. |
-| [Docling](https://github.com/docling-project/docling) | 62k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 146k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 103k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 71k | Python | LLM-friendly web crawler with structured extraction. |
+| [Docling](https://github.com/docling-project/docling) | 63k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28k | Python | Graph pipelines + LLMs to extract data via plain English. |
 | [Stagehand](https://github.com/browserbase/stagehand) | 23k | TypeScript | Browser automation combining natural language with code precision. |
 | [Skyvern](https://github.com/Skyvern-AI/skyvern) | 22k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
@@ -52,12 +52,12 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 67k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 68k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 10k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
 | [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 4k | Python | Successor to undetected-chromedriver — direct CDP, no WebDriver. |
-| [Botasaurus](https://github.com/omkarcloud/botasaurus) | 5k | Python | Scraping framework with anti-detection, parallelism, and caching. |
+| [Botasaurus](https://github.com/omkarcloud/botasaurus) | 6k | Python | Scraping framework with anti-detection, parallelism, and caching. |
 | [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 4k | JavaScript | Undetected Playwright fork that passes bot detection. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -68,7 +68,7 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 
 | Server | Stars | Description |
 |--------|-------|-------------|
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 34k | Browser automation via accessibility snapshots (by Microsoft). |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 35k | Browser automation via accessibility snapshots (by Microsoft). |
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 7k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 2k | Web access with geo-unblocking and bot evasion. |
@@ -84,7 +84,7 @@ The foundation for dynamic/JS-heavy scraping.
 | [Puppeteer](https://github.com/puppeteer/puppeteer) | 95k | JavaScript | Google's Chrome/Firefox control via DevTools Protocol. |
 | [Playwright](https://github.com/microsoft/playwright) | 92k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 34k | Multi | The OG browser automation (W3C WebDriver standard). |
-| [Crawlee](https://github.com/apify/crawlee) | 24k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [Crawlee](https://github.com/apify/crawlee) | 25k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -123,7 +123,7 @@ The network layer — making requests that look human.
 | [aiohttp](https://github.com/aio-libs/aiohttp) | 16k | Python | Async HTTP client/server for high-concurrency scraping. |
 | [httpx](https://github.com/encode/httpx) | 15k | Python | Async/sync HTTP client with HTTP/2 support. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
-| [got-scraping](https://github.com/apify/got-scraping) | 760 | Node.js | HTTP client with header/TLS mimicry by Apify. |
+| [got-scraping](https://github.com/apify/got-scraping) | 759 | Node.js | HTTP client with header/TLS mimicry by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -173,7 +173,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 174k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 176k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 31k | Go video downloader — 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 25k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 19k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
@@ -184,9 +184,9 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Docling](https://github.com/docling-project/docling) | 62k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
+| [Docling](https://github.com/docling-project/docling) | 63k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
 | [Unstructured](https://github.com/Unstructured-IO/unstructured) | 15k | Python | ETL pipeline for documents → structured data for LLMs. |
-| [pdfplumber](https://github.com/jsvine/pdfplumber) | 10k | Python | Text, tables, and layout from PDFs with precision. |
+| [pdfplumber](https://github.com/jsvine/pdfplumber) | 11k | Python | Text, tables, and layout from PDFs with precision. |
 | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 10k | Python | Fast PDF/XPS/EPUB extraction and rendering. |
 | [Tabula](https://github.com/tabulapdf/tabula) | 7k | Java | Data tables from PDFs. ⚠️ |
 | [pdfminer.six](https://github.com/pdfminer/pdfminer.six) | 7k | Python | PDF text extraction with layout analysis. |
@@ -200,7 +200,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Tesseract](https://github.com/tesseract-ocr/tesseract) | 75k | C++ | Google's OCR engine — 100+ languages. |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 84k | Python | Lightweight OCR — 100+ languages with LLM integration. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 85k | Python | Lightweight OCR — 100+ languages with LLM integration. |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 30k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
 | [pytesseract](https://github.com/madmaze/pytesseract) | 6k | Python | Python wrapper for Tesseract. |
 
