@@ -56,8 +56,8 @@ The cat-and-mouse game of modern scraping.
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 10k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
-| [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 5k | Python | Successor to undetected-chromedriver — direct CDP, no WebDriver. |
 | [Botasaurus](https://github.com/omkarcloud/botasaurus) | 6k | Python | Scraping framework with anti-detection, parallelism, and caching. |
+| [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 5k | Python | Successor to undetected-chromedriver — direct CDP, no WebDriver. |
 | [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 4k | JavaScript | Undetected Playwright fork that passes bot detection. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -166,6 +166,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | [Instaloader](https://github.com/instaloader/instaloader) | 13k | Instagram | Posts, stories, reels, highlights with metadata. |
 | [TikTok-Api](https://github.com/davidteather/TikTok-Api) | 6k | TikTok | Unofficial API wrapper for Python. |
 | [PRAW](https://github.com/praw-dev/praw) | 4k | Reddit | Official Python Reddit API Wrapper. |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | 158 | X/Twitter | X/Twitter data API and MCP server for tweet search, profile timelines, follower exports, media downloads, monitors, webhooks, and confirmation-gated publishing actions. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
