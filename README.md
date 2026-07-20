@@ -33,13 +33,13 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 150k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 104k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 72k | Python | LLM-friendly web crawler with structured extraction. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 153k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 106k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 73k | Python | LLM-friendly web crawler with structured extraction. |
 | [Docling](https://github.com/docling-project/docling) | 63k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 28k | Python | Graph pipelines + LLMs to extract data via plain English. |
-| [Stagehand](https://github.com/browserbase/stagehand) | 23k | TypeScript | Browser automation combining natural language with code precision. |
-| [Skyvern](https://github.com/Skyvern-AI/skyvern) | 22k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
+| [Stagehand](https://github.com/browserbase/stagehand) | 24k | TypeScript | Browser automation combining natural language with code precision. |
+| [Skyvern](https://github.com/Skyvern-AI/skyvern) | 23k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
 | [Jina Reader](https://github.com/jina-ai/reader) | 12k | TypeScript | Any URL → LLM-friendly markdown with vision model support. |
 | [llm-scraper](https://github.com/mishushakov/llm-scraper) | 7k | TypeScript | Structured data from any webpage using LLMs with Zod schemas. |
 | [Spider](https://github.com/spider-rs/spider) | 3k | Rust | Async, configurable web crawler with streaming and browser support. |
@@ -52,7 +52,7 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 69k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 70k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 10k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
@@ -71,7 +71,7 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | 35k | Browser automation via accessibility snapshots (by Microsoft). |
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 7k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
-| [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 2k | Web access with geo-unblocking and bot evasion. |
+| [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 3k | Web access with geo-unblocking and bot evasion. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -123,7 +123,7 @@ The network layer — making requests that look human.
 | [aiohttp](https://github.com/aio-libs/aiohttp) | 17k | Python | Async HTTP client/server for high-concurrency scraping. |
 | [httpx](https://github.com/encode/httpx) | 15k | Python | Async/sync HTTP client with HTTP/2 support. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
-| [got-scraping](https://github.com/apify/got-scraping) | 760 | Node.js | HTTP client with header/TLS mimicry by Apify. |
+| [got-scraping](https://github.com/apify/got-scraping) | 764 | Node.js | HTTP client with header/TLS mimicry by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -164,7 +164,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Platform | Description |
 |------|-------|----------|-------------|
 | [Instaloader](https://github.com/instaloader/instaloader) | 13k | Instagram | Posts, stories, reels, highlights with metadata. |
-| [TikTok-Api](https://github.com/davidteather/TikTok-Api) | 6k | TikTok | Unofficial API wrapper for Python. |
+| [TikTok-Api](https://github.com/davidteather/TikTok-Api) | 7k | TikTok | Unofficial API wrapper for Python. |
 | [PRAW](https://github.com/praw-dev/praw) | 4k | Reddit | Official Python Reddit API Wrapper. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
@@ -173,7 +173,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 178k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 179k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 32k | Go video downloader — 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 25k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 19k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
@@ -200,7 +200,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Tesseract](https://github.com/tesseract-ocr/tesseract) | 75k | C++ | Google's OCR engine — 100+ languages. |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 85k | Python | Lightweight OCR — 100+ languages with LLM integration. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 86k | Python | Lightweight OCR — 100+ languages with LLM integration. |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 30k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
 | [pytesseract](https://github.com/madmaze/pytesseract) | 6k | Python | Python wrapper for Tesseract. |
 
