@@ -33,9 +33,9 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 157k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 107k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 75k | Python | LLM-friendly web crawler with structured extraction. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 160k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 108k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 76k | Python | LLM-friendly web crawler with structured extraction. |
 | [Docling](https://github.com/docling-project/docling) | 64k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 29k | Python | Graph pipelines + LLMs to extract data via plain English. |
 | [Stagehand](https://github.com/browserbase/stagehand) | 24k | TypeScript | Browser automation combining natural language with code precision. |
@@ -52,7 +52,7 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 71k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 72k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 11k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
@@ -94,7 +94,7 @@ The foundation for dynamic/JS-heavy scraping.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [Scrapy](https://github.com/scrapy/scrapy) | 63k | Python scraping framework — middleware, pipelines, extensions. |
+| [Scrapy](https://github.com/scrapy/scrapy) | 64k | Python scraping framework — middleware, pipelines, extensions. |
 | [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup) | 5k | Stateful browser-like interaction for simple scraping. |
 | [scrapy-playwright](https://github.com/scrapy-plugins/scrapy-playwright) | 1k | Playwright integration for Scrapy — JS rendering with full pipeline. |
 
@@ -173,7 +173,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 180k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 182k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 32k | Go video downloader — 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 26k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 19k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
@@ -200,7 +200,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Tesseract](https://github.com/tesseract-ocr/tesseract) | 76k | C++ | Google's OCR engine — 100+ languages. |
-| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 86k | Python | Lightweight OCR — 100+ languages with LLM integration. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 87k | Python | Lightweight OCR — 100+ languages with LLM integration. |
 | [EasyOCR](https://github.com/JaidedAI/EasyOCR) | 30k | Python | Ready-to-use OCR — 80+ languages, PyTorch. |
 | [pytesseract](https://github.com/madmaze/pytesseract) | 6k | Python | Python wrapper for Tesseract. |
 
