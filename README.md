@@ -33,10 +33,10 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 160k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 108k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 76k | Python | LLM-friendly web crawler with structured extraction. |
-| [Docling](https://github.com/docling-project/docling) | 64k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 164k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 109k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 78k | Python | LLM-friendly web crawler with structured extraction. |
+| [Docling](https://github.com/docling-project/docling) | 65k | Python | IBM — parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 29k | Python | Graph pipelines + LLMs to extract data via plain English. |
 | [Stagehand](https://github.com/browserbase/stagehand) | 24k | TypeScript | Browser automation combining natural language with code precision. |
 | [Skyvern](https://github.com/Skyvern-AI/skyvern) | 23k | Python | Browser workflows with computer vision + LLMs, no selectors needed. |
@@ -52,7 +52,7 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 72k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 73k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
 | [Camoufox](https://github.com/daijro/camoufox) | 11k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
@@ -123,7 +123,7 @@ The network layer — making requests that look human.
 | [aiohttp](https://github.com/aio-libs/aiohttp) | 17k | Python | Async HTTP client/server for high-concurrency scraping. |
 | [httpx](https://github.com/encode/httpx) | 15k | Python | Async/sync HTTP client with HTTP/2 support. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 6k | Python | HTTP client impersonating browser TLS fingerprints (also in Stealth). |
-| [got-scraping](https://github.com/apify/got-scraping) | 766 | Node.js | HTTP client with header/TLS mimicry by Apify. |
+| [got-scraping](https://github.com/apify/got-scraping) | 768 | Node.js | HTTP client with header/TLS mimicry by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -150,7 +150,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Readability.js](https://github.com/mozilla/readability) | 11k | JavaScript | Mozilla's article extractor (powers Firefox Reader View). |
-| [Trafilatura](https://github.com/adbar/trafilatura) | 6k | Python | Web text extraction with metadata and language detection. |
+| [Trafilatura](https://github.com/adbar/trafilatura) | 7k | Python | Web text extraction with metadata and language detection. |
 | [html2text](https://github.com/Alir3z4/html2text) | 2k | Python | HTML → clean Markdown. |
 | [Markdownify](https://github.com/matthewwithanm/python-markdownify) | 2k | Python | Flexible HTML-to-Markdown with customizable options. |
 | [newspaper4k](https://github.com/AndyTheFactory/newspaper4k) | 1k | Python | News article extraction with NLP and multilingual support. |
@@ -173,7 +173,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 182k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 184k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 32k | Go video downloader — 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 26k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 19k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
@@ -184,7 +184,7 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Docling](https://github.com/docling-project/docling) | 64k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
+| [Docling](https://github.com/docling-project/docling) | 65k | Python | IBM — PDFs, DOCX, PPTX into AI-ready output. |
 | [Unstructured](https://github.com/Unstructured-IO/unstructured) | 15k | Python | ETL pipeline for documents → structured data for LLMs. |
 | [pdfplumber](https://github.com/jsvine/pdfplumber) | 11k | Python | Text, tables, and layout from PDFs with precision. |
 | [PyMuPDF](https://github.com/pymupdf/PyMuPDF) | 10k | Python | Fast PDF/XPS/EPUB extraction and rendering. |
