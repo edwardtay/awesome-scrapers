@@ -72,6 +72,7 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 7k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 3k | Web access with geo-unblocking and bot evasion. |
+| [Figranium MCP](https://github.com/figranium/figranium-mcp) | 1 | Allow AI agents to build, test, and execute Figranium tasks remotely. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -85,6 +86,7 @@ The foundation for dynamic/JS-heavy scraping.
 | [Playwright](https://github.com/microsoft/playwright) | 94k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 34k | Multi | The OG browser automation (W3C WebDriver standard). |
 | [Crawlee](https://github.com/apify/crawlee) | 25k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [Figranium](https://github.com/figranium/figranium) | 437 | TypeScript | Dockerized, Playwright-based browser automation platform for visually building tasks and running them through REST API, MCP, or n8n. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
