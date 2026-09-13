@@ -59,6 +59,7 @@ The cat-and-mouse game of modern scraping.
 | [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 5k | Python | Successor to undetected-chromedriver — direct CDP, no WebDriver. |
 | [Botasaurus](https://github.com/omkarcloud/botasaurus) | 6k | Python | Scraping framework with anti-detection, parallelism, and caching. |
 | [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 4k | JavaScript | Undetected Playwright fork that passes bot detection. |
+| [Hexium Browser](https://github.com/HeadlessXLabs/hexium-browser) | 2 | Python | Playwright `launch()` + patched Chromium 151 (C++ personas, no JS injectors). Linux x86_64 alpha. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
