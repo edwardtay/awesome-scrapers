@@ -72,6 +72,7 @@ Connect LLM agents (Claude, GPT, etc.) directly to scraping tools.
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 8k | Web scraping and search in Claude/Cursor via Firecrawl API. |
 | [Browserbase MCP](https://github.com/browserbase/mcp-server-browserbase) | 3k | Cloud browser control with Stagehand AI. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 3k | Web access with geo-unblocking and bot evasion. |
+| [Puppetflow MCP](https://github.com/puppetflow/puppetflow) | 0 | Remote MCP server for running governed browser workflows with live sessions, human validation, and artifacts. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -85,6 +86,7 @@ The foundation for dynamic/JS-heavy scraping.
 | [Playwright](https://github.com/microsoft/playwright) | 97k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 35k | Multi | The OG browser automation (W3C WebDriver standard). |
 | [Crawlee](https://github.com/apify/crawlee) | 26k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [Puppetflow](https://github.com/puppetflow/puppetflow) | 0 | TypeScript | Source-available, self-hosted Puppeteer workflow platform with live browser control, scheduling, human validation, recordings, REST API, and MCP. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
