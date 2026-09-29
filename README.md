@@ -166,6 +166,8 @@ Pull clean text out of messy HTML — essential for LLM/RAG pipelines.
 | [Instaloader](https://github.com/instaloader/instaloader) | 13k | Instagram | Posts, stories, reels, highlights with metadata. |
 | [TikTok-Api](https://github.com/davidteather/TikTok-Api) | 7k | TikTok | Unofficial API wrapper for Python. |
 | [PRAW](https://github.com/praw-dev/praw) | 4k | Reddit | Official Python Reddit API Wrapper. |
+| [LinkedIn Company Posts Scraper](https://apify.com/data-slayer/linkedin-company-posts-scraper?utm_source=github&utm_medium=content&utm_campaign=linkedin-company-posts-scraper) | — | LinkedIn | Commercial Apify actor — company posts and engagement, no login required. |
+| [Instagram Post & Reel Details Scraper](https://apify.com/data-slayer/instagram-post-details?utm_source=github&utm_medium=content&utm_campaign=instagram-post-details) | — | Instagram | Commercial Apify actor — post/reel details and analytics by URL, no login. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
