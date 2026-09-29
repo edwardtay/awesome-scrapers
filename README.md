@@ -43,6 +43,7 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 | [Jina Reader](https://github.com/jina-ai/reader) | 12k | TypeScript | Any URL → LLM-friendly markdown with vision model support. |
 | [llm-scraper](https://github.com/mishushakov/llm-scraper) | 7k | TypeScript | Structured data from any webpage using LLMs with Zod schemas. |
 | [Spider](https://github.com/spider-rs/spider) | 3k | Rust | Async, configurable web crawler with streaming and browser support. |
+| [Ghostget](https://github.com/hraness/ghostget) | 7 | TypeScript | Gives AI agents a fixed set of web actions (read a page as Markdown, archive a media item, act in a connected account) without handing them credentials. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
