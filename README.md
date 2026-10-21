@@ -234,6 +234,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [Oxylabs](https://oxylabs.io/products/scraper-api) | Enterprise | ML-driven proxy rotation, e-commerce specialized. |
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA. |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured results from Google, Bing, Yahoo. |
+| [serpgrab](https://serpgrab.com/) | SERP data | Google search and Maps results in SerpApi's JSON format, plus a hosted MCP server. |
 | [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | Proxy rotation, browser rendering, and structured scraping endpoints. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
