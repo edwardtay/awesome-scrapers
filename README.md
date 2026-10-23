@@ -235,6 +235,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA. |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured results from Google, Bing, Yahoo. |
 | [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | Proxy rotation, browser rendering, and structured scraping endpoints. |
+| [ScrapeUnblocker](https://docs.scrapeunblocker.com/) | Protected sites | Real-browser rendering through Cloudflare, DataDome, PerimeterX, and Akamai, returning HTML, Markdown, or parsed JSON, plus a Google SERP API and an MCP server. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
