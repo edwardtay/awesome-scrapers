@@ -246,6 +246,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [Anti-Captcha](https://anti-captcha.com/) | Human workers | Usage-based; see current pricing | reCAPTCHA, hCaptcha, FunCaptcha, Turnstile. |
 | [CapSolver](https://www.capsolver.com/) | Automated solving | Usage-based; see current pricing | reCAPTCHA, AWS WAF, Cloudflare, GeeTest. |
 | [CapMonster Cloud](https://capmonster.cloud/) | Automated solving | Usage-based; see current pricing | reCAPTCHA, hCaptcha, and Turnstile. |
+| [CaptchaNo](https://captchano.com/) | Solving API | Pay per solve, from $1.50 / 1k; free signup credit | reCAPTCHA v2/v3/Enterprise, Turnstile, DataDome, image. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
