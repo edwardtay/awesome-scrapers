@@ -238,7 +238,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [Firecrawl Cloud](https://firecrawl.link/PzR7fd7) | LLM-ready output | Hosted Firecrawl: scrape, crawl, map, and search endpoints that return clean markdown or JSON. |
 | [Browse AI](https://partners.browse.ai/72ax5sc1epaz) | No-code monitoring | Point-and-click robots that extract and monitor website data on a schedule. |
 | [DataForSEO](https://dataforseo.com/?aff=255379) | SEO and SERP data | Pay-as-you-go APIs for SERPs, keywords, backlinks, and on-page data. |
-| [Irmu](https://irmu.com) | Scraping + AI extraction | Commercial. JavaScript rendering, screenshots, proxy rotation, AI JSON extraction, ChatGPT answers and Booking.com search data; REST API and hosted MCP server, free tier. |
+| [Irmu](https://irmu.com) | Scraping + AI extraction | Commercial service for JavaScript rendering, screenshots, proxy rotation, AI JSON extraction, ChatGPT answers and Booking.com search data via REST API and hosted MCP server, with a free tier. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
