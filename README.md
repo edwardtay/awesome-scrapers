@@ -61,6 +61,7 @@ The cat-and-mouse game of modern scraping.
 | [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 5k | Python | Successor to undetected-chromedriver, direct CDP, no WebDriver. |
 | [Botasaurus](https://github.com/omkarcloud/botasaurus) | 6k | Python | Scraping framework with anti-detection, parallelism, and caching. |
 | [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | 5k | JavaScript | Undetected Playwright fork that passes bot detection. |
+| [Maily](https://github.com/stormsia/maily) | <1k | Python | Resilient temporary email gateway aggregating 8+ disposable services with domain rotation for automation bots. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
