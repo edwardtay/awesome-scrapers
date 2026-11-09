@@ -226,7 +226,8 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | Service | Best For | Key Feature |
 |---------|----------|-------------|
 | [Apify](https://www.apify.com/?fpr=3nr7v8) | Full-stack platform | Marketplace of pre-built Actors plus Crawlee-based development and managed execution. |
-| [ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Simple API access | JavaScript rendering, screenshots, and search APIs. |
+|[String](https://usestring.ai/) | Bot-protected sites | Fetch, search and map API returning Markdown/JSON; billed only on successful requests; MCP server for |agents. 
+|[ScrapingBee](https://www.scrapingbee.com?fpr=edward77) | Simple API access | JavaScript rendering, screenshots, and search APIs. |
 | [ZenRows](https://www.zenrows.com/) | Anti-bot bypass | Managed scraping API with browser rendering and proxy rotation. |
 | [ScrapFly](https://scrapfly.io/) | Multi-API | Scraping, screenshots, extraction, and crawler APIs. |
 | [Browserless](https://www.browserless.io/) | Headless browsers | Headless Chrome in Docker, BrowserQL, self-hostable. |
