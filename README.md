@@ -231,6 +231,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [ScrapFly](https://scrapfly.io/) | Multi-API | Scraping, screenshots, extraction, and crawler APIs. |
 | [Browserless](https://www.browserless.io/) | Headless browsers | Headless Chrome in Docker, BrowserQL, self-hostable. |
 | [Browserbase](https://www.browserbase.com/) | AI browser agents | Cloud browsers for AI, session persistence, Stagehand integration. |
+| [AdsCrawl](https://www.adscrawl.net/) (commercial) | Cloud browsers + extraction | Managed Chromium browsers with rendered HTML/Markdown, CSS-selector field extraction, screenshots, and Playwright/Puppeteer/CDP connectivity. |
 | [Oxylabs](https://oxylabs.io/products/scraper-api) | Enterprise | ML-driven proxy rotation, e-commerce specialized. |
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA. |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured results from Google, Bing, Yahoo. |
