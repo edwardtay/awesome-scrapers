@@ -235,6 +235,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [Bright Data](https://brightdata.com/products/web-unlocker) | Scale | Web Unlocker with CAPTCHA solving, geo-routing, mobile UA. |
 | [SerpApi](https://serpapi.com/) | SERP data | Structured results from Google, Bing, Yahoo. |
 | [ScraperAPI](https://www.scraperapi.com/?fp_ref=edward66) | Getting started | Proxy rotation, browser rendering, and structured scraping endpoints. |
+| [CurlShot](https://curlshot.com/) | Page screenshots | Renders a URL, HTML or Markdown in headless Chromium and returns PNG, JPEG, WebP, PDF or video, with an MCP server for agents. |
 | [Firecrawl Cloud](https://firecrawl.link/PzR7fd7) | LLM-ready output | Hosted Firecrawl: scrape, crawl, map, and search endpoints that return clean markdown or JSON. |
 | [Browse AI](https://partners.browse.ai/72ax5sc1epaz) | No-code monitoring | Point-and-click robots that extract and monitor website data on a schedule. |
 | [DataForSEO](https://dataforseo.com/?aff=255379) | SEO and SERP data | Pay-as-you-go APIs for SERPs, keywords, backlinks, and on-page data. |
