@@ -262,6 +262,7 @@ Pay-per-request services that handle proxies, browsers, and anti-bot for you.
 | [IPRoyal](https://iproyal.com/) | Residential, ISP, mobile, and datacenter proxies | Published plans | Proxy services with geographic targeting and pay-as-you-go options. |
 | [NetNut](https://netnut.io?ref=mzjimtc) | Residential, ISP, mobile, and datacenter proxies | Contact sales | ISP-sourced proxy connectivity and geographic targeting. |
 | [Webshare](https://www.webshare.io/?referral_code=petnjy3bdxeh) | Residential and datacenter proxies | Published plans | Self-service proxy plans and a limited free tier. |
+| [ProxyLister](https://proxylister.com) | Not a proxy vendor (management and free directory) | Freemium; beta | Vendor-neutral ProxyOps platform to import, health-check, benchmark and pool proxies from any provider, plus a live-checked free proxy directory. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
