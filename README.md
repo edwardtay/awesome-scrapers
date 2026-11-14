@@ -14,6 +14,8 @@
 
 ## How to Choose
 
+**New:** [Which scraper should I use?](WHICH-SCRAPER.md) compares 24 tools and 13 managed APIs on JavaScript support, license, maintenance (commits in the last 90 days) and real prices.
+
 | I need to... | Start here |
 |---|---|
 | Extract data with AI / natural language | [AI-Powered Scraping](#-ai-powered-scraping) |
