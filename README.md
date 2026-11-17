@@ -101,6 +101,7 @@ The foundation for dynamic/JS-heavy scraping.
 | [Scrapy](https://github.com/scrapy/scrapy) | 65k | Python scraping framework, middleware, pipelines, extensions. |
 | [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup) | 5k | Stateful browser-like interaction for simple scraping. |
 | [scrapy-playwright](https://github.com/scrapy-plugins/scrapy-playwright) | 1k | Playwright integration for Scrapy, JS rendering with full pipeline. |
+| [2scraper](https://github.com/2scraper) | 540 | Collection of 66 site-specific scrapers for popular sites with per-site pagination and CAPTCHA handling built in; JSON/CSV output. |
 
 ### Go
 
