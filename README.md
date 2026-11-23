@@ -37,9 +37,9 @@ LLMs understand page structure, extract via natural language, and output LLM-rea
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | 202k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
-| [browser-use](https://github.com/browser-use/browser-use) | 121k | Python | AI agents that control a browser to complete tasks autonomously. |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 87k | Python | LLM-friendly web crawler with structured extraction. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 208k | TypeScript | Websites → LLM-ready markdown or structured data via API. |
+| [browser-use](https://github.com/browser-use/browser-use) | 122k | Python | AI agents that control a browser to complete tasks autonomously. |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | 88k | Python | LLM-friendly web crawler with structured extraction. |
 | [Docling](https://github.com/docling-project/docling) | 71k | Python | IBM, parse PDFs, DOCX into AI-ready output. |
 | [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | 33k | Python | Graph pipelines + LLMs to extract data via plain English. |
 | [Stagehand](https://github.com/browserbase/stagehand) | 26k | TypeScript | Browser automation combining natural language with code precision. |
@@ -56,9 +56,9 @@ The cat-and-mouse game of modern scraping.
 
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
-| [Scrapling](https://github.com/D4Vinci/Scrapling) | 104k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
+| [Scrapling](https://github.com/D4Vinci/Scrapling) | 105k | Python | Adaptive scraping with built-in anti-detection and auto-matching. |
 | [SeleniumBase](https://github.com/seleniumbase/SeleniumBase) | 13k | Python | Browser automation with UC (Undetected Chrome) mode. |
-| [Camoufox](https://github.com/daijro/camoufox) | 13k | Python | Firefox-based browser automation project with fingerprint-management features. |
+| [Camoufox](https://github.com/daijro/camoufox) | 14k | Python | Firefox-based browser automation project with fingerprint-management features. |
 | [curl_cffi](https://github.com/lexiforest/curl_cffi) | 7k | Python | HTTP client with browser TLS/JA3/HTTP2 fingerprint impersonation. |
 | [Nodriver](https://github.com/ultrafunkamsterdam/nodriver) | 5k | Python | Successor to undetected-chromedriver, direct CDP, no WebDriver. |
 | [Botasaurus](https://github.com/omkarcloud/botasaurus) | 6k | Python | Scraping framework with anti-detection, parallelism, and caching. |
@@ -86,9 +86,9 @@ The foundation for dynamic/JS-heavy scraping.
 | Tool | Stars | Language | Description |
 |------|-------|----------|-------------|
 | [Puppeteer](https://github.com/puppeteer/puppeteer) | 96k | JavaScript | Google's Chrome/Firefox control via DevTools Protocol. |
-| [Playwright](https://github.com/microsoft/playwright) | 100k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
+| [Playwright](https://github.com/microsoft/playwright) | 101k | Multi | Cross-browser automation (Chromium, Firefox, WebKit) by Microsoft. |
 | [Selenium](https://github.com/SeleniumHQ/selenium) | 35k | Multi | The OG browser automation (W3C WebDriver standard). |
-| [Crawlee](https://github.com/apify/crawlee) | 26k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
+| [Crawlee](https://github.com/apify/crawlee) | 27k | TypeScript | Scraping/automation library with proxy rotation by Apify. |
 
 <p align="right">(<a href="#readme">⬆ back to top</a>)</p>
 
@@ -98,7 +98,7 @@ The foundation for dynamic/JS-heavy scraping.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [Scrapy](https://github.com/scrapy/scrapy) | 65k | Python scraping framework, middleware, pipelines, extensions. |
+| [Scrapy](https://github.com/scrapy/scrapy) | 66k | Python scraping framework, middleware, pipelines, extensions. |
 | [MechanicalSoup](https://github.com/MechanicalSoup/MechanicalSoup) | 5k | Stateful browser-like interaction for simple scraping. |
 | [scrapy-playwright](https://github.com/scrapy-plugins/scrapy-playwright) | 1k | Playwright integration for Scrapy, JS rendering with full pipeline. |
 
@@ -177,7 +177,7 @@ Pull clean text out of messy HTML. Essential for LLM/RAG pipelines.
 
 | Tool | Stars | Description |
 |------|-------|-------------|
-| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 208k | YouTube and 1000+ sites (fork of youtube-dl). |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 210k | YouTube and 1000+ sites (fork of youtube-dl). |
 | [lux](https://github.com/iawia002/lux) | 32k | Go video downloader, 40+ sites (formerly annie). |
 | [spotdl](https://github.com/spotDL/spotify-downloader) | 27k | Spotify tracks/playlists with metadata and album art. |
 | [gallery-dl](https://github.com/mikf/gallery-dl) | 21k | Image galleries from 100+ sites (Pixiv, Twitter, Reddit). |
